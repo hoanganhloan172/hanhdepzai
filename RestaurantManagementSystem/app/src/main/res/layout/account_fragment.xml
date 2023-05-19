@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/accoutfrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_profile_d"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_my_profile_logo"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:text="My profile"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="View profile and edit profile"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_shopdetails_d"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_restaurant_detail"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:text="Shop Details"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="Edit and Update your Personal and Business Details "/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_changpass_d"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_change_password_frag"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:text="Change Password"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="Secure your Account"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_profile_d"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_employee_logo"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="Employee Management"
+                android:textSize="22dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="View Employee and edit Employee or add Employee"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_person_logo_mycustomer_d"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_user_logo"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="User Management"
+                android:textSize="22dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="View User and edit User or add User"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_logout_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="LOGOUT"
+            android:gravity="center"
+            android:layout_gravity="bottom"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

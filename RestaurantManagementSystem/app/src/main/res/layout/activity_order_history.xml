@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OrderHistoryActivity">
+    <TextView
+        android:id="@+id/tvordermanagerorderhistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order History"
+        android:gravity="center"
+        android:paddingTop="10dp"
+
+        android:textColor="@color/purple"
+        android:textSize="30sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editsearchorderhistory"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Search order"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/iconsearchorderhistory"
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+
+            app:srcCompat="@drawable/ic_baseline_search_order_list" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_orderorderhistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

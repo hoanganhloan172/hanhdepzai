@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="26dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="8dp"
+    android:background="@drawable/order_item"
+
+    >
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tvcustomerNameOrderHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abc"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tvstatusOrderHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="200dp"
+            android:text="inprogress"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvorderdateOrderHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="10/12/2023"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvtotalOrderHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tvorderdateOrderHistory"
+            android:paddingTop="30dp"
+            android:paddingLeft="122dp"
+            android:text="Total Price"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tvpriceOrderHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tvtotalOrderHistory"
+            android:paddingTop="30dp"
+            android:paddingLeft="10dp"
+            android:text="150$"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_view_OrderHistory"
+            android:text="Viewdetails"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentEnd="true"
+            />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

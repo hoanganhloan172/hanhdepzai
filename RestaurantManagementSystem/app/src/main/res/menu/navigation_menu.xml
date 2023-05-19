@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item android:id="@+id/menuOrder"-->
+<!--        android:icon="@drawable/ic_baseline_date_range_24"-->
+<!--        android:title="@string/order"-->
+<!--        />-->
+<!--    <item android:id="@+id/menuproduct"-->
+<!--        android:icon="@drawable/ic_baseline_work_24"-->
+<!--        android:title="@string/product"/>-->
+    <item android:id="@+id/menuhome"
+        android:icon="@drawable/ic_home_d"
+        android:title="@string/home"/>
+
+    <item android:id="@+id/menumanage"
+        android:icon="@drawable/ic_manage_d"
+        android:title="@string/manager"/>
+
+
+    <item android:id="@+id/menuaccount"
+        android:icon="@drawable/ic_baseline_person_24_d"
+        android:title="@string/account"/>
+
+
+
+
+</menu>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_profile_d"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_my_profile_logo_user"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:text="My profile"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="View profile and edit profile"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_changpass_d"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_change_password_frag_user"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:text="Change Password"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="Secure your Account"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_contacts_d"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_contact_us_logo_user"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:text="Contact Us"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="Share our FoodChow RMS Mobie with other Users"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/logout_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="LOGOUT"
+            android:gravity="center"
+            android:layout_gravity="bottom"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

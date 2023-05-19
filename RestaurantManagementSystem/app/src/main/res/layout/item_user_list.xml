@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="26dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="8dp"
+    android:background="@drawable/order_item"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/person"
+            android:layout_width="38dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/ic_outline_person_my_customer_item_p" />
+
+        <TextView
+            android:id="@+id/tv_itemuserlist_user_name"
+            android:layout_width="293dp"
+            android:layout_height="45dp"
+
+            android:layout_toEndOf="@+id/person"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:text="ABC"
+            android:textColor="@color/black" />
+        <ImageView
+            android:id="@+id/mail"
+            android:layout_width="38dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/person"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_baseline_mail_outline_my_customer_item_p" />
+
+
+        <TextView
+            android:id="@+id/tv_itemuserlist_mail"
+            android:layout_width="346dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/person"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/mail"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:text="12"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="37dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/mail"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_baseline_phone_my_customer_item_p" />
+
+        <TextView
+            android:id="@+id/tv_itemuserlist_phone"
+            android:layout_width="339dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/mail"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/phone"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:text="12"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imv_itemuserlist_viewinfo"
+            android:layout_width="44dp"
+            android:layout_height="45dp"
+
+            android:layout_toEndOf="@+id/tv_itemuserlist_user_name"
+            app:srcCompat="@drawable/ic_baseline_remove_red_eye_24"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

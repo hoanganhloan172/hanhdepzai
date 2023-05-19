@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="26dp"
+    app:cardElevation="20dp"
+
+    android:background="@drawable/order_item"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        >
+
+
+        <ImageView
+            android:id="@+id/iv_table_image"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_table_d" />
+
+        <TextView
+            android:id="@+id/tv_table"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/iv_table_image"
+            android:text="Table No: "
+            android:textColor="@color/purple"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_table_id"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/tv_table"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/tv_table"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_floor_image"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/tv_table_id"
+            android:src="@drawable/ic_house_d" />
+
+
+        <TextView
+            android:id="@+id/tv_table_floor"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_below="@+id/tv_table"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/iv_floor_image"
+            android:gravity="center"
+            android:text="Floor: "
+            android:textColor="@color/purple"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_table_floor_value"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-4dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/tv_table_floor"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_person_image"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/iv_floor_image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_person_logo_mycustomer_d" />
+
+        <TextView
+            android:id="@+id/tv_nop"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_below="@+id/tv_table"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/iv_person_image"
+            android:text="No Of Person: "
+            android:textColor="@color/purple"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_table_no_of_person"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="81dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toEndOf="@+id/tv_nop"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_edit_table"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginBottom="16dp"
+
+            android:layout_toEndOf="@+id/switch_status_table"
+            app:srcCompat="@drawable/ic_t_baseline_edit" />
+
+        <Switch
+            android:id="@+id/switch_status_table"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="15dp"
+            android:text=""
+
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

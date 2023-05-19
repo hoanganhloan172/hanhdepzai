@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="26dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="8dp"
+    android:background="@drawable/order_item"
+
+    >
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/tv_customer_icon_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_person_24_d" />
+
+        <TextView
+            android:id="@+id/tvcustomerName_meal"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv_customer_icon_meal"
+            android:paddingLeft="10dp"
+            android:text="Abc"
+            android:textColor="@color/black" />
+        <ImageView
+            android:id="@+id/tv_table_icon_meal"
+            android:layout_toEndOf="@+id/tvcustomerName_meal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_t_baseline_table" />
+        <TextView
+            android:id="@+id/tvtable_meal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@+id/tv_table_icon_meal"
+            android:paddingLeft="10dp"
+            android:text="No of Table:"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tvtable_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@+id/tvtable_meal_title"
+            android:paddingLeft="10dp"
+            android:text="1"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:id="@+id/tv_date_icon_meal"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tv_customer_icon_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_access_alarm_order_detail_p" />
+
+        <TextView
+            android:id="@+id/tvorderdate_meal"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv_date_icon_meal"
+            android:paddingLeft="10dp"
+            android:paddingTop="45dp"
+            android:text="10/12/2023"
+            android:textColor="@color/black" />
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btn_done_meal"
+            android:text="Done"
+            android:layout_marginTop="30dp"
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
